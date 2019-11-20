@@ -7,7 +7,7 @@ int main(void){
 		greeting = (char *) malloc(get_greetingSize()/sizeof(char));
 	}
 	else {
-		printf("Greeting string is to short e!\n");
+		printf("Greeting string is to short!\n");
 		return -1;
 	}
 
